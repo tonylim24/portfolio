@@ -1,0 +1,20 @@
+div .blog {
+    display: block;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center !important;
+    height: 20%;
+    /* Create text max space is 50% of page width */
+    width: 50%;
+    margin: 0 auto;
+}
+
+div .content-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    background-color: #888;
+    border: 5px solid red;
+}

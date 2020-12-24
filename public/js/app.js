@@ -6339,7 +6339,26 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "/* Sticky footer styles\r\n-------------------------------------------------- */\n\nhtml {\n  position: relative;\n  min-height: 100%;\n}\n\nbody {\n  /* Margin bottom by footer height */\n  margin-bottom: 60px;\n}\n\n.footer-copyright {\n  position: absolute;\n  bottom: 0;\n  width: 100%;\n  /* Set the fixed height of the footer here */\n  height: 60px;\n  line-height: 60px; /* Vertically center the text there */\n  background-color: #343A40;\n  color: white;\n}\n\n.footer-copyright > .social {\n  padding-left: 30px;\n  width: 50%;\n  float: left;\n  text-align: left;\n  justify-content: center;\n}\n\n.footer-copyright > .copyright {\n  padding-right: 30px;\n  width: 50%;\n  float: right;\n  text-align: right;\n}\n\n.social > a {\n  color: white;\n}\n\n/* Ion Icons CSS */\n\nion-icon{\n  text-decoration: none;\n  padding-right: 30px;\n  font-size: 20px;\n  /* This is used to cancel all default pointer tooltip so we can use button title. */\n  pointer-events: none;\n}\n\n.logo-linkedin:hover {\n  color: #0A66C2;\n}\n\n.logo-gitlab:hover {\n  color: #FC6D26;\n}\n\n.icon-call:hover {\n  color: #888;\n}\n\n.icon-mail:hover {\n  color: #888;\n}\n\n.icon-resume:hover {\n  color: #888;\n}", ""]);
+exports.push([module.i, "/* Sticky footer styles\r\n-------------------------------------------------- */\n\nhtml {\n  position: relative;\n  min-height: 100%;\n}\n\nbody {\n  /* Margin bottom by footer height */\n  margin-bottom: 60px;\n}\n\n.footer-copyright {\n  position: absolute;\n  bottom: 0;\n  width: 100%;\n  /* Set the fixed height of the footer here */\n  height: 60px;\n  line-height: 60px; /* Vertically center the text there */\n  background-color: #343A40;\n  color: white;\n  overflow: hidden;\n}\n\n.footer-copyright > .social {\n  padding-left: 30px;\n  width: 50%;\n  float: left;\n  text-align: left;\n  justify-content: center;\n  overflow: hidden;\n}\n\n.footer-copyright > .copyright {\n  padding-right: 30px;\n  width: 50%;\n  float: right;\n  text-align: right;\n}\n\n.social > a {\n  color: white;\n}\n\n/* Ion Icons CSS */\n\nion-icon{\n  text-decoration: none;\n  padding-right: 30px;\n  font-size: 20px;\n  /* This is used to cancel all default pointer tooltip so we can use button title. */\n  pointer-events: none;\n}\n\n.logo-linkedin:hover {\n  color: #0A66C2;\n}\n\n.logo-gitlab:hover {\n  color: #FC6D26;\n}\n\n.icon-call:hover {\n  color: #888;\n}\n\n.icon-mail:hover {\n  color: #888;\n}\n\n.icon-resume:hover {\n  color: #888;\n}\r\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/stylesheets/index.css":
+/*!***************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./resources/js/components/stylesheets/index.css ***!
+  \***************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "div .blog {\n  display: block;\n  padding: 20px;\n  align-items: center;\n  text-align: center;\n  justify-content: center !important;\n  height: 20%;\n  /* Create text max space is 50% of page width */\n  width: 50%;\n  margin: 0 auto;\n}\n\ndiv .content-2 {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: 20vh;\n  background-color: #888;\n  border: 5px solid red;\n}", ""]);
 
 // exports
 
@@ -66430,6 +66449,8 @@ __webpack_require__(/*! ./components/Example */ "./resources/js/components/Examp
 
 __webpack_require__(/*! ./components/Footer */ "./resources/js/components/Footer.js");
 
+__webpack_require__(/*! ./components/Index */ "./resources/js/components/Index.js");
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":
@@ -66639,6 +66660,86 @@ if (document.getElementById('web-footer')) {
 
 /***/ }),
 
+/***/ "./resources/js/components/Index.js":
+/*!******************************************!*\
+  !*** ./resources/js/components/Index.js ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _stylesheets_index_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./stylesheets/index.css */ "./resources/js/components/stylesheets/index.css");
+/* harmony import */ var _stylesheets_index_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_stylesheets_index_css__WEBPACK_IMPORTED_MODULE_2__);
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+
+
+
+
+var Index = /*#__PURE__*/function (_Component) {
+  _inherits(Index, _Component);
+
+  var _super = _createSuper(Index);
+
+  function Index() {
+    _classCallCheck(this, Index);
+
+    return _super.apply(this, arguments);
+  }
+
+  _createClass(Index, [{
+    key: "render",
+    value: function render() {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "main-container"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "blog"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "blog-title"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Tony Lim")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "blog-description"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Aspiring to grow in the web and software development industry on a world class level."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "resume"
+      }));
+    }
+  }]);
+
+  return Index;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
+
+/* harmony default export */ __webpack_exports__["default"] = (Index);
+
+if (document.getElementById('body-example')) {
+  react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Index, null), document.getElementById('body-example'));
+}
+
+/***/ }),
+
 /***/ "./resources/js/components/stylesheets/Footer.css":
 /*!********************************************************!*\
   !*** ./resources/js/components/stylesheets/Footer.css ***!
@@ -66648,6 +66749,36 @@ if (document.getElementById('web-footer')) {
 
 
 var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--7-1!../../../../node_modules/postcss-loader/src??ref--7-2!./Footer.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/stylesheets/Footer.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./resources/js/components/stylesheets/index.css":
+/*!*******************************************************!*\
+  !*** ./resources/js/components/stylesheets/index.css ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--7-1!../../../../node_modules/postcss-loader/src??ref--7-2!./index.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/stylesheets/index.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 

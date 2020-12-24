@@ -22,8 +22,43 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 35vw;
+    width: 25vw;
     height: auto;
+}
+
+.dev-technology-logos {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.dev-technology-logos > img {
+    display: block;
+    padding-left: 5px;
+    width: auto;
+    height: 50px;
+}
+
+.dev-technology-logos .img-add-left-padding{
+    padding-left: 25px;
+}
+
+/* Hide Development Technology Logos With class .dev-technology-desktop 
+    if screen size < 1200px
+*/
+@media screen and (max-width: 1200px) {
+    #dev-technology-logos-desktop {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1199px) {
+    #dev-technology-logos-mobile {
+        display: none;
+    }
 }
 
 h1 {

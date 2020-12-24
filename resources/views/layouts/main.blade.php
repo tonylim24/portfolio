@@ -27,7 +27,13 @@
     -->
     <!-- Add icon library -->
     <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+
+    {{-- Tailwind CSS --}}
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
     <title>Laravel - React</title>
+    {{-- Stack to Push Bottom Scripts --}}
+    @stack('top-scripts')
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

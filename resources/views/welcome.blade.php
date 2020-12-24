@@ -7,7 +7,7 @@
         </div>
     </div>
 
-    <div id="bottom-navbar">
+    <div id="web-footer">
         {{-- React DOM Manipulation: js/components/Footer.js --}}
     </div>
     

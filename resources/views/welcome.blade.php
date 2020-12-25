@@ -5,10 +5,6 @@
 @endpush
 
 @section('content')
-    {{-- <div id="web-header">
-        
-    </div> --}}
-
     <div class="body-container">
         <div class="body-content-container-hero">
             <div class="tl-logo">

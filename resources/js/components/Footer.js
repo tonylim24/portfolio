@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import "./stylesheets/Footer.css";
 
 var getCurrentYear = new Date().getFullYear();
 

@@ -12,12 +12,12 @@
             </div>
             <div class="profile-container">
                 <div class="profile-name-description">
-                    <h1>Tony Lim</h1><br />
+                    <h1>Tony Lim</h1>
                     <h2>Web / Software Developer</h2>
                     <h3>Grow, Conceptualize, Develop, Exceed. </h3>
                     <br> 
                     <div class="technology-container">
-                        <p>Development Technologies (Responsive on window size):</p><br>
+                        <p>Development Technologies:</p><br>
             
                         {{-- Show if screen width > 1366px, refer to css. --}}
                         <div class="dev-logos" id="dev-technology-logos-desktop">

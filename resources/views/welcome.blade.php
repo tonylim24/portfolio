@@ -94,6 +94,22 @@
                     </p>
                 </div>
             </div>
+
+            <div class="content-container-projects-1 shadow p-3 mb-5 bg-white rounded">
+                <div class="body-projects-img">
+                    <a href="http://www.tngames.ca" target="_blank" rel="noreferrer">
+                        <img src="{{asset('/images/tngames.jpg')}}" alt="T&N Games"> 
+                    </a>
+                </div>
+                <div class="body-projects-desc rounded-xl">
+                    <p class="project-title">T&N Games</p>
+                    <p class="project-text">
+                        Modern and simple website developed using HTML, Bootstrap, CSS, and Google APIs. The idea behind 
+                        the website is so that it can be maintained without any web development knowledge.
+                    </p>
+                </div>
+            </div>
+
         </div>
 
     </div>

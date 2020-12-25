@@ -10,14 +10,17 @@
             <li class="nav-item active">
                 <a class="nav-link" href="#intro">Intro <span class="sr-only">(current)</span></a>
             </li>
+
             <li class="nav-item">
                 <a class="nav-link" href="#resume">Resume</a>
             </li>
+
             <li class="nav-item">
                 <a class="nav-link" href="#projects">Projects</a>
             </li>
+
             <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
+                <a class="nav-link" href="#blog">Blog</a>
             </li>
         </ul>
     </div>

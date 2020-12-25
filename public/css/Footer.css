@@ -58,14 +58,18 @@ html {
     color: #FC6D26;
   }
 
+  .logo-github:hover {
+    filter: invert(1);
+  }
+
   .icon-call:hover {
-    color: #888;
+    filter: invert(1);
   }
     
   .icon-mail:hover {
-    color: #888;
+    filter: invert(1);
   }
 
   .icon-resume:hover {
-    color: #888;
+    filter: invert(1);
   }

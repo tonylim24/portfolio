@@ -65979,6 +65979,15 @@ var Footer = /*#__PURE__*/function (_Component) {
         name: "logo-gitlab"
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         button: true,
+        href: "https://github.com/tonylim24/",
+        className: "logo-github",
+        target: "_blank",
+        rel: "noreferrer",
+        title: "Github"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ion-icon", {
+        name: "logo-github"
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        button: true,
         href: "mailto:tonolim24@gmail.com",
         className: "icon-mail",
         target: "_blank",

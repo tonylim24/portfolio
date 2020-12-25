@@ -15,6 +15,9 @@ class Footer extends Component {
                         <a button href="https://gitlab.com/tonylimmvp" className="logo-gitlab" target="_blank" rel="noreferrer" title="GitLab">
                             <ion-icon name="logo-gitlab"></ion-icon>
                         </a>
+                        <a button href="https://github.com/tonylim24/" className="logo-github" target="_blank" rel="noreferrer" title="Github">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
                         <a button href="mailto:tonolim24@gmail.com" className="icon-mail" target="_blank" rel="noreferrer" title="Email Me">
                             <ion-icon name="mail-outline"></ion-icon>
                         </a>

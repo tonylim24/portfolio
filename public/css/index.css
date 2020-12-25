@@ -89,12 +89,12 @@ h2 {
 }
 
 h3 {
-    font-size: 36px;
+    font-size: 1.25vw;
     font-weight: 400;
 }
 
-.subtitle > h3 {
-    text-align: left;
+.subtitle > h4 {
+    font-size: 2.25vw;
     font-weight: 600;
     font-style: italic;
 }
@@ -116,7 +116,7 @@ h3 {
 }
 
 .content-container-projects-1 .body-projects-img {
-  
+  max-width: 40vw;
 }
 
 .content-container-projects-1 .body-projects-desc {
@@ -124,6 +124,7 @@ h3 {
     overflow: auto;
     background-color: #343A40;
     padding: 20px;
+    min-width: 45vw;
 }
 
 .project-title {
@@ -135,5 +136,9 @@ h3 {
 }
 
 .project-text {
+    color: white;
+}
+
+.project-disclaimer {
     color: white;
 }

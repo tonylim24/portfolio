@@ -13,7 +13,8 @@
             <div class="profile-container">
                 <div class="profile-name-description">
                     <h1>Tony Lim</h1><br />
-                    <h2>Aspiring to grow in the web and software development industry on a world class level.</h2>
+                    <h2>Web / Software Developer</h2>
+                    <h3>Grow, Conceptualize, Develop, Exceed. </h3>
                     <br> 
                     <div class="technology-container">
                         <p>Development Technologies (Responsive on window size):</p><br>
@@ -66,7 +67,7 @@
         </div>
         
         <div class="subtitle">
-            <h3>Resume (Click for full size)</h3>
+            <h4>Resume (Click for full size)</h4><br>
         </div>
         <div class="body-content-container-resume shadow p-3 mb-5 bg-white rounded" id="resume">
             <div class="resume-image">
@@ -78,9 +79,41 @@
         </div>
 
         <div class="subtitle">
-            <h3>Projects</h3><br>
+            <h4>Work & Projects</h4><br>
         </div>
         <div class="body-content-container-projects" id="projects">
+
+            <div class="content-container-projects-1 shadow p-3 mb-5 bg-white rounded">
+                <div class="body-projects-img">
+                    <a href="#" target="_blank" rel="noreferrer">
+                        <img src="{{asset('/images/datacore-index.jpg')}}" alt="Lee's Electronic's DataCore"> 
+                    </a>
+                </div>
+                <div class="body-projects-desc rounded-xl">
+                    <p class="project-title">DataCore</p>
+                    <p class="project-text">
+                        Business centric web application to assist Lee's Electronic Components in daily operations. 
+                        Developed using Laravel, Bootstrap, JQuery, AJAX, PHP, CSS, JS, Bambora API, and SQL.
+                    </p><br>
+                    <small class="project-disclaimer">Due to customer's and Lee's Electronic's privacy, only screenshots will be provided.</small>
+                </div>
+            </div>
+
+            <div class="content-container-projects-1 shadow p-3 mb-5 bg-white rounded">
+                <div class="body-projects-img">
+                    <a href="#" target="_blank" rel="noreferrer">
+                        <img src="{{asset('/images/coreui-index.jpg')}}" alt="Lee's Electronic's CoreUI"> 
+                    </a>
+                </div>
+                <div class="body-projects-desc rounded-xl">
+                    <p class="project-title">CoreUI</p>
+                    <p class="project-text">
+                        DataCore's backend system to assist administration procedure.
+                    </p><br>
+                    <small class="project-disclaimer">Due to customer's and Lee's Electronic's privacy, only screenshots will be provided.</small>
+                </div>
+            </div>
+
             <div class="content-container-projects-1 shadow p-3 mb-5 bg-white rounded">
                 <div class="body-projects-img">
                     <a href="https://tonylim-portfolio.herokuapp.com/" target="_blank" rel="noreferrer">
@@ -90,7 +123,7 @@
                 <div class="body-projects-desc rounded-xl">
                     <p class="project-title">PERSONAL PORTFOLIO</p>
                     <p class="project-text">
-                        Personal portfolio developed locally with MAMP, Nginx, Laravel, CSS, Bootstrap, React, and deployed with Heroku
+                        Personal portfolio developed locally with MAMP, Nginx, Laravel, CSS, Bootstrap, React, and deployed with Heroku.
                     </p>
                 </div>
             </div>

@@ -127,11 +127,11 @@ h3 {
     min-width: 45vw;
 }
 
-.project-title {
+p.project-title {
     color: white;
     font-size: xx-large;
     font-weight: 600;
-    text-transform: capitalize;
+    text-transform: uppercase;
     text-decoration: underline;
 }
 

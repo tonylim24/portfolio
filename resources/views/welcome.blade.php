@@ -108,9 +108,10 @@
                 <div class="body-projects-desc rounded-xl">
                     <p class="project-title">CoreUI</p>
                     <p class="project-text">
-                        DataCore's backend system to assist administration procedure.
+                        DataCore's backend system to assist with administration procedures. Database is synced with
+                         point of sale system with shell scripts and CSV imports.
                     </p><br>
-                    <small class="project-disclaimer">Due to customer's and Lee's Electronic's privacy, only screenshots will be provided.</small>
+                    <small class="project-disclaimer">Due to customers' and Lee's Electronic's privacy, only screenshots will be provided.</small>
                 </div>
             </div>
 
@@ -142,9 +143,8 @@
                     </p>
                 </div>
             </div>
-
         </div>
-
+        
     </div>
 
     <div id="web-footer">

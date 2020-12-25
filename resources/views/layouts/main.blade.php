@@ -4,8 +4,8 @@
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{ asset('css/main.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/Footer.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/main.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/Footer.css') }}">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -31,7 +31,7 @@
     <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
 
     {{-- Tailwind CSS --}}
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
 
     <title>Laravel - React</title>
     {{-- Stack to Push Bottom Scripts --}}
@@ -65,10 +65,10 @@
     </button> 
 
     {{-- Bottom Navbar JS --}}
-    <script defer type="text/javascript" src="{{ asset('js/app.js') }}"></script>
+    <script defer type="text/javascript" src="{{ secure_asset('js/app.js') }}"></script>
 
     {{-- Get Main JS --}}
-    <script type="text/javascript" src="{{ asset('js/main.js') }}"></script>
+    <script type="text/javascript" src="{{ secure_asset('js/main.js') }}"></script>
     
     {{-- Stack to Push Bottom Scripts --}}
     @stack('bottom-scripts')

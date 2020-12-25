@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @push('top-scripts')
-    <link rel="stylesheet" href="{{ asset('css/index.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/index.css') }}">
 @endpush
 
 @section('content')

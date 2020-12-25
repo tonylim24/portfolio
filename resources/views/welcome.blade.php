@@ -25,13 +25,14 @@
                         {{-- Show if screen width > 1200px --}}
                         <div class="dev-technology-logos" id="dev-technology-logos-desktop">
                             {{-- Add technology icons here. --}}
-                            <img id="laravel-logo" src="{{ asset('images/logos/Laravel.png') }}" alt="Laravel" title="Laravel" />
-                            <img id="react-logo" src="{{ asset('images/logos/ReactJS.png') }}" alt="ReactJS" title="ReactJS" />
-                            <img id="mysql-logo" src="{{ asset('images/logos/MySQL.png') }}" alt="MySQL" title="MySQL" />
-                            <img id="css-logo" src="{{ asset('images/logos/CSS.png') }}" alt="CSS" title="CSS" class="img-add-left-padding" />
-                            <img id="java-logo" src="{{ asset('images/logos/java.png') }}" alt="Java" title="Java" class="img-add-left-padding" />
-                            <img id="python-logo" src="{{ asset('images/logos/python.png') }}" alt="Python" title="Python" class="img-add-left-padding" />
-                            <img id="bootstrap-logo" src="{{ asset('images/logos/bootstrap.png') }}" alt="Bootstrap" title="Bootstrap" class="img-add-left-padding" />
+                            <img src="{{ asset('images/logos/Laravel.png') }}" alt="Laravel" title="Laravel" />
+                            <img src="{{ asset('images/logos/ReactJS.png') }}" alt="ReactJS" title="ReactJS" />
+                            <img src="{{ asset('images/logos/MySQL.png') }}" alt="MySQL" title="MySQL" />
+                            <img src="{{ asset('images/logos/CSS.png') }}" alt="CSS" title="CSS" class="img-add-left-padding" />
+                            <img src="{{ asset('images/logos/java.png') }}" alt="Java" title="Java" class="img-add-left-padding" />
+                            <img src="{{ asset('images/logos/python.png') }}" alt="Python" title="Python" class="img-add-left-padding" />
+                            <img src="{{ asset('images/logos/bootstrap.png') }}" alt="Bootstrap" title="Bootstrap" class="img-add-left-padding" />
+                            <img src="{{ asset('images/logos/more.png') }}" alt="and More" title="and More" />
                         </div>
 
                         {{-- Show if screen width < 1199px --}}
@@ -39,10 +40,11 @@
                             {{-- Add technology icons here. --}}
                             <img src="{{ asset('images/logos/Laravel.png') }}" alt="Laravel" title="Laravel" />
                             <img src="{{ asset('images/logos/ReactJS.png') }}" alt="ReactJS" title="ReactJS" />
-                            <img src="{{ asset('images/logos/MySQL.png') }}" alt="MySQL" title="MySQL" />
+                            <img src="{{ asset('images/logos/more.png') }}" alt="and More" title="and More" />
                         </div>
+                        
+                        <p></p>
                     </div>
-
                     <br>
                 </div>
             </div>

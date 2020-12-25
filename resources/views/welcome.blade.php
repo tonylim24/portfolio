@@ -20,10 +20,10 @@
                     <h2>Aspiring to grow in the web and software development industry on a world class level.</h2>
                     <br> 
                     <div class="technology-container">
-                        <p>Development Technologies:</p>
-                        <br>
-                        {{-- Show if screen width > 1200px --}}
-                        <div class="dev-technology-logos" id="dev-technology-logos-desktop">
+                        <p>Development Technologies:</p><br>
+            
+                        {{-- Show if screen width > 1366px, refer to css. --}}
+                        <div class="dev-logos" id="dev-technology-logos-desktop">
                             {{-- Add technology icons here. --}}
                             <img src="{{ asset('images/logos/Laravel.png') }}" alt="Laravel" title="Laravel" />
                             <img src="{{ asset('images/logos/ReactJS.png') }}" alt="ReactJS" title="ReactJS" />
@@ -32,18 +32,36 @@
                             <img src="{{ asset('images/logos/java.png') }}" alt="Java" title="Java" class="img-add-left-padding" />
                             <img src="{{ asset('images/logos/python.png') }}" alt="Python" title="Python" class="img-add-left-padding" />
                             <img src="{{ asset('images/logos/bootstrap.png') }}" alt="Bootstrap" title="Bootstrap" class="img-add-left-padding" />
-                            <img src="{{ asset('images/logos/more.png') }}" alt="and More" title="and More" />
+                            <img src="{{ asset('images/logos/more.png') }}" alt="and More" title="and More" class="img-add-left-padding" />
                         </div>
 
-                        {{-- Show if screen width < 1199px --}}
-                        <div class="dev-technology-logos" id="dev-technology-logos-mobile">
+                        {{-- Show if screen width < 1365px --}}
+                        <div class="dev-logos" id="dev-technology-logos-mobile">
                             {{-- Add technology icons here. --}}
                             <img src="{{ asset('images/logos/Laravel.png') }}" alt="Laravel" title="Laravel" />
                             <img src="{{ asset('images/logos/ReactJS.png') }}" alt="ReactJS" title="ReactJS" />
                             <img src="{{ asset('images/logos/more.png') }}" alt="and More" title="and More" />
                         </div>
-                        
-                        <p></p>
+                        <br>
+                        <p>Environment: </p><br>
+                        {{-- Show if screen width > 1366px, refer to css. --}}
+                        <div class="dev-logos" id="dev-environment-logos-desktop">
+                            {{-- Add technology icons here. --}}
+                            <img src="{{ asset('images/logos/windows.png') }}" alt="Microsoft Windows" title="Microsoft Windows" />
+                            <img src="{{ asset('images/logos/linux.png') }}" alt="Linux" title="Linux" class="img-add-left-padding" />
+                            <img src="{{ asset('images/logos/adobecc.png') }}" alt="Adobe Creative Cloud" title="Addobe Creative Cloud" class="img-add-left-padding" />
+                            <img src="{{ asset('images/logos/git.png') }}" alt="Git" title="Git" class="img-add-left-padding" />
+                            <img src="{{ asset('images/logos/nodejs.png') }}" alt="Node JS" title="Node JS" class="img-add-left-padding" />
+                            <img src="{{ asset('images/logos/more.png') }}" alt="and More" title="and More" class="img-add-left-padding-15" />
+                        </div>
+                        {{-- Show if screen width < 1365px --}}
+                        <div class="dev-logos" id="dev-environment-logos-mobile">
+                            {{-- Add technology icons here. --}}
+                            <img src="{{ asset('images/logos/windows.png') }}" alt="Windows" title="Windows" />
+                            <img src="{{ asset('images/logos/git.png') }}" alt="Git" title="Git" class="img-add-left-padding" />
+                            <img src="{{ asset('images/logos/more.png') }}" alt="and More" title="and More" class="img-add-left-padding-15" />
+                        </div>
+
                     </div>
                     <br>
                 </div>
@@ -53,10 +71,12 @@
         
         <div class="body-content-container-resume" id="resume">
             <div class="resume-title">
-                <h3>Resume</h3>
+                <h3>Resume (Click for full size)</h3>
             </div>
             <div class="resume-image">
-                <img id="resume-image" src="{{ asset('images/WEB_RESUME_A4_96PPI.jpg')}}" alt="resume">
+                <a href="{{asset('images/WEB_RESUME_A4_96PPI.jpg')}}" target="_blank" rel="noreferrer">
+                    <img id="resume-image" src="{{ asset('images/WEB_RESUME_A4_96PPI.jpg')}}" alt="resume">
+                </a>
             </div>
         </div>
 

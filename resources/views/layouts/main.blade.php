@@ -33,7 +33,7 @@
     {{-- Tailwind CSS --}}
     <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
 
-    <title>Laravel - React</title>
+    <title>Tony Lim's Portfolio</title>
     {{-- Stack to Push Bottom Scripts --}}
     @stack('top-scripts')
   </head>

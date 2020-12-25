@@ -93,8 +93,12 @@ h3 {
     font-weight: 400;
 }
 
+.subtitle {
+    padding: 5px;
+}
+
 .subtitle > h4 {
-    font-size: 2.25vw;
+    font-size: 40px;
     font-weight: 600;
     font-style: italic;
 }
@@ -108,15 +112,11 @@ h3 {
     display: flex;
     flex-direction: column;
     position: relative;
-    max-width: 50vw;
+    min-width: 50vw;
     min-height: 475px;
     justify-content: center;
     align-items: center;
     border: 1px solid black;
-}
-
-.content-container-projects-1 .body-projects-img {
-  max-width: 40vw;
 }
 
 .content-container-projects-1 .body-projects-desc {
@@ -124,7 +124,7 @@ h3 {
     overflow: auto;
     background-color: #343A40;
     padding: 20px;
-    min-width: 45vw;
+    min-width: 40vw;
 }
 
 p.project-title {

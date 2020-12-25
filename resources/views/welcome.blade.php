@@ -67,7 +67,8 @@
         </div>
         
         <div class="subtitle">
-            <h4>Resume (Click for full size)</h4><br>
+            <h4>Resume</h4>
+            <small>Click on the image to expand</small>
         </div>
         <div class="body-content-container-resume shadow p-3 mb-5 bg-white rounded" id="resume">
             <div class="resume-image">
@@ -79,7 +80,7 @@
         </div>
 
         <div class="subtitle">
-            <h4>Work & Projects</h4><br>
+            <h4>Work & Projects</h4>
         </div>
         <div class="body-content-container-projects" id="projects">
 

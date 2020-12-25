@@ -105,7 +105,8 @@ h3 {
 
 /* Projects Related */
 .content-container-projects-1 {
-    display: table-cell;
+    display: flex;
+    flex-direction: column;
     position: relative;
     max-width: 50vw;
     min-height: 475px;
@@ -115,14 +116,14 @@ h3 {
 }
 
 .content-container-projects-1 .body-projects-img {
-    width: auto;
+  
 }
 
 .content-container-projects-1 .body-projects-desc {
-    width: auto;
     text-align: center;
     overflow: auto;
     background-color: #343A40;
+    padding: 20px;
 }
 
 .project-title {

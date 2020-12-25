@@ -78,7 +78,7 @@
         </div>
 
         <div class="subtitle">
-            <h3>Projects</h3>
+            <h3>Projects</h3><br>
         </div>
         <div class="body-content-container-projects" id="projects">
             <div class="content-container-projects-1 shadow p-3 mb-5 bg-white rounded">
@@ -87,9 +87,11 @@
                         <img src="{{asset('/images/portfolio.jpg')}}" alt="Portfolio"> 
                     </a>
                 </div>
-                <div class="body-projects-desc">
+                <div class="body-projects-desc rounded-xl">
                     <p class="project-title">PERSONAL PORTFOLIO</p>
-                    <p class="project-text">Personal portfolio using Laravel, React, Bootstrap, CSS, and Heroku.<p>
+                    <p class="project-text">
+                        Personal portfolio developed locally with MAMP, Nginx, Laravel, CSS, Bootstrap, React, and deployed with Heroku
+                    </p>
                 </div>
             </div>
         </div>

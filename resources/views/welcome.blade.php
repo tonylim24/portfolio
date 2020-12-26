@@ -167,7 +167,7 @@
                     <div class="blog-image">
                         <img src="{{secure_asset('images/dice.png')}}" />
                     </div>
-                    <p class="blog-description text-white">Description goes here.</p>
+                    <p class="blog-description text-white">Laravel app to generate random numbers.</p>
                 </div>
                 <div class="blog-content bg-grad-stpetersburg shadow p-3 mb-5 rounded">
                     <h1 class="blog-title">And More!</h1>

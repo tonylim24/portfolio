@@ -204,6 +204,7 @@ p.project-title {
 
     .blog-image {
         width: 150px;
+        height: auto;
     }
 }
 @media screen and (min-width: 1001px) {

@@ -1,19 +1,6 @@
-.body-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding-bottom: 60px;
-}
+/* Title */
 
 .body-content-container-hero {
-    display: block;
-    position: relative;
-    max-width: 50vw;
-}
-
-.body-content-container-resume {
     display: block;
     position: relative;
     max-width: 50vw;
@@ -49,6 +36,14 @@
 
 .dev-logos .img-add-left-padding-15{
     padding-left: 15px;
+}
+
+/* Resume */
+
+.body-content-container-resume {
+    display: block;
+    position: relative;
+    max-width: 50vw;
 }
 
 /* Hide Development Technology Logos With class .dev-technology-desktop 
@@ -139,6 +134,72 @@ p.project-title {
     color: white;
 }
 
-.project-disclaimer {
+/* Blog */
+
+.blog-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-content {
+    min-width: 40vh;
+    min-height: 20vh;
+    margin: 10px;
+}
+
+.blog-title {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.blog-description {
+    font-size: 16px;
+}
+
+.blog-image {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    width: auto;
+    padding: 20px;
+}
+
+.text-white {
     color: white;
+}
+
+.bg-grad-peach {
+    background-image: linear-gradient(to right, #ffecd2, #fcb69f);
+}
+
+.bg-grad-underwater {
+    background-image: linear-gradient(to top right, #13547a, #80d0c7);
+}
+
+.bg-grad-blueshade {
+    background-image: linear-gradient(to top, #09203f, #537895)
+}
+
+.bg-grad-stpetersburg {
+    background-image: linear-gradient(to bottom right, #f5f7fa , #c3cfe2)
+}
+
+/* For mobile devices, scale blog grid section */
+@media screen and (max-width: 1000px) {
+    .blog-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .blog-content {
+        min-width: 40vh;
+        max-width: 40vh;
+        min-height: 20vh;
+    }
+
+    .blog-title {
+        display: none;
+    }
 }

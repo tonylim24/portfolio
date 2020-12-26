@@ -83,7 +83,6 @@
             <h4>Work & Projects</h4>
         </div>
         <div class="body-content-container-projects" id="projects">
-
             <div class="content-container-projects-1 shadow p-3 mb-5 bg-white rounded">
                 <div class="body-projects-img">
                     <a href="#" target="_blank" rel="noreferrer">
@@ -96,7 +95,7 @@
                         Business centric web application to assist Lee's Electronic Components in daily operations. 
                         Developed using Laravel, Bootstrap, JQuery, AJAX, PHP, CSS, JS, Bambora API, and SQL.
                     </p><br>
-                    <small class="project-disclaimer">Due to customer's and Lee's Electronic's privacy, only screenshots will be provided.</small>
+                    <small class="project-text">Due to customer's and Lee's Electronic's privacy, only screenshots will be provided.</small>
                 </div>
             </div>
 
@@ -112,7 +111,7 @@
                         DataCore's backend system to assist with administration procedures. Database is synced with
                          point of sale system with shell scripts and CSV imports.
                     </p><br>
-                    <small class="project-disclaimer">Due to customers' and Lee's Electronic's privacy, only screenshots will be provided.</small>
+                    <small class="project-text">Due to customers' and Lee's Electronic's privacy, only screenshots will be provided.</small>
                 </div>
             </div>
 
@@ -144,8 +143,42 @@
                     </p>
                 </div>
             </div>
+
+            <div class="subtitle">
+                <h4>Blog</h4>
+            </div>
+            <div class="blog-container" id="blog">
+                <div class="blog-content bg-grad-peach shadow p-3 mb-5 rounded">
+                    <h1 class="blog-title">Basic Git Commands</h1>
+                    <div class="blog-image">
+                        <img src="{{secure_asset('images/logos/git.png')}}" />
+                    </div>
+                    <p class="blog-description">Basic git commands that are commonly used during production.</p>
+                </div>
+                <div class="blog-content bg-grad-blueshade shadow p-3 mb-5 rounded">
+                    <h1 class="blog-title text-white">Basic Laravel OOP Concept</h1>
+                    <div class="blog-image">
+                        <img src="{{secure_asset('images/logos/laravel.png')}}" />
+                    </div>
+                    <p class="blog-description text-white">Laravel OOP guide by using layouts and routes.</p>
+                </div>
+                <div class="blog-content bg-grad-underwater shadow p-3 mb-5 rounded">
+                    <h1 class="blog-title text-white">Random Number Generator</h1>
+                    <div class="blog-image">
+                        <img src="{{secure_asset('images/dice.png')}}" />
+                    </div>
+                    <p class="blog-description text-white">Description goes here.</p>
+                </div>
+                <div class="blog-content bg-grad-stpetersburg shadow p-3 mb-5 rounded">
+                    <h1 class="blog-title">And More!</h1>
+                    <div class="blog-image">
+                        <img src="{{secure_asset('images/logos/more.png')}}" />
+                    </div>
+                    <p class="blog-description">Eventually, more useful information will be listed here!</p>
+                </div>
+            </div>
         </div>
-        
+        <p>All trademarks are the property of their respective owners.</p>
     </div>
 
     <div id="web-footer">

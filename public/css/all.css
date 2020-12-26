@@ -1,3 +1,12 @@
+.body-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
 #goTopButton {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */

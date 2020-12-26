@@ -4,14 +4,14 @@
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{ secure_asset('css/main.css') }}">
-    <link rel="stylesheet" href="{{ secure_asset('css/top-navbar.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/all.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/top-navbar-main.css') }}">
     <link rel="stylesheet" href="{{ secure_asset('css/Footer.css') }}">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Tony Lim's Portfolio developed using Laravel, React, CSS, and Bootstrap."
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
@@ -53,7 +53,7 @@
     -->
 
     <div id="top-navbar">
-      @include('layouts.top-nav')
+      @include('layouts.top-nav-main')
     </div>
 
     <div class="content-container">

@@ -148,13 +148,15 @@
                 <h4>Blog</h4>
             </div>
             <div class="blog-container" id="blog">
-                <div class="blog-content bg-grad-peach shadow p-3 mb-5 rounded">
-                    <h1 class="blog-title">Basic Git Commands</h1>
-                    <div class="blog-image">
-                        <img src="{{secure_asset('images/logos/git-h150px.png')}}" />
+                <a href="https://localhost:7888/portfolio-basic/public/documentation/git-docs" target="_blank" rel="noreferrer">
+                    <div class="blog-content bg-grad-peach shadow p-3 mb-5 rounded">
+                        <h1 class="blog-title">Basic Git Commands</h1>
+                        <div class="blog-image">
+                            <img src="{{secure_asset('images/logos/git-h150px.png')}}" />
+                        </div>
+                        <p class="blog-description">Basic git commands that are commonly used during production.</p>
                     </div>
-                    <p class="blog-description">Basic git commands that are commonly used during production.</p>
-                </div>
+                </a>
                 <div class="blog-content bg-grad-blueshade shadow p-3 mb-5 rounded">
                     <h1 class="blog-title text-white">Basic Laravel OOP Concept</h1>
                     <div class="blog-image">

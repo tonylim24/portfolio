@@ -143,6 +143,11 @@ p.project-title {
     align-items: center;
 }
 
+.blog-container a {
+    color: inherit !important;
+    text-decoration: inherit !important;
+}
+
 .blog-content {
     min-width: 40vh;
     min-height: 20vh;

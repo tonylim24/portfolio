@@ -34,7 +34,7 @@
     {{-- Tailwind CSS --}}
     <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
 
-    <title>Tony Lim's Portfolio</title>
+    <title>Tony Lim's Blog Pages</title>
     {{-- Stack to Push Bottom Scripts --}}
     @stack('top-scripts')
   </head>
@@ -53,7 +53,7 @@
     -->
 
     <div id="top-navbar">
-      @include('layouts.top-nav-main')
+      @include('layouts.top-nav-sub')
     </div>
 
     <div class="content-container">

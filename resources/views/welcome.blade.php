@@ -124,7 +124,7 @@
                 <div class="body-projects-desc rounded-xl">
                     <p class="project-title">PERSONAL PORTFOLIO</p>
                     <p class="project-text">
-                        Personal portfolio developed locally with MAMP, Nginx, Laravel, CSS, Bootstrap, React, and deployed with Heroku.
+                        Responsive personal portfolio developed locally with MAMP, Nginx, Laravel, CSS, Bootstrap, React, and deployed with Heroku.
                     </p>
                 </div>
             </div>

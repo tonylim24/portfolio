@@ -162,7 +162,6 @@ p.project-title {
     display: flex;
     justify-content: center;
     height: 150px;
-    width: auto;
     padding: 20px;
 }
 
@@ -191,11 +190,6 @@ p.project-title {
     .blog-container {
         display: flex;
         flex-direction: column;
-    }
-    .blog-content {
-        min-width: 40vh;
-        max-width: 40vh;
-        min-height: 20vh;
     }
 
     .blog-title {

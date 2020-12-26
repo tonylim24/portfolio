@@ -93,7 +93,7 @@ h3 {
 }
 
 .subtitle > h4 {
-    font-size: 40px;
+    font-size: 52px;
     font-weight: 600;
     font-style: italic;
 }
@@ -111,7 +111,6 @@ h3 {
     min-height: 475px;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
 }
 
 .content-container-projects-1 .body-projects-desc {
@@ -201,5 +200,16 @@ p.project-title {
 
     .blog-title {
         display: none;
+    }
+
+    .subtitle > h4 {
+        font-size: 40px;
+        font-weight: 600;
+        font-style: italic;
+    }
+}
+@media screen and (min-width: 1001px) {
+    small {
+        font-size: 20px;
     }
 }

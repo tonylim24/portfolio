@@ -68,7 +68,7 @@
         
         <div class="subtitle">
             <h4>Resume</h4>
-            <small>Click on the image to expand</small>
+            <small class="instruction">Click on the image to expand</small>
         </div>
         <div class="body-content-container-resume shadow p-3 mb-5 bg-white rounded" id="resume">
             <div class="resume-image">
@@ -82,7 +82,7 @@
         <div class="subtitle">
             <h4>Work & Projects</h4>
         </div>
-        <div class="body-content-container-projects" id="projects">
+        <div class="body-content-container-projects p-3 mb-5 bg-white rounded" id="projects">
             <div class="content-container-projects-1 shadow p-3 mb-5 bg-white rounded">
                 <div class="body-projects-img">
                     <a href="#" target="_blank" rel="noreferrer">
@@ -178,6 +178,7 @@
                 </div>
             </div>
         </div>
+        {{-- End Work, Projects, and Blog Container --}}
         <p>All trademarks are the property of their respective owners.</p>
     </div>
 

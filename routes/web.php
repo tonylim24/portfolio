@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/back', function () {
-    return back();
-});
+Route::get('/blog', function () {
+    return view('blog.index');
+})->name('blog-index');
+
+Route::get('/blog/gitdocs', function () {
+    return view('blog.gitdocs');
+})->name('gitdocs');

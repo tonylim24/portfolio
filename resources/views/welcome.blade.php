@@ -148,7 +148,7 @@
                 <h4>Blog</h4>
             </div>
             <div class="blog-container" id="blog">
-                <a href="https://localhost:7888/portfolio-basic/public/documentation/git-docs" target="_blank" rel="noreferrer">
+                <a href="{{route('gitdocs')}}">
                     <div class="blog-content bg-grad-peach shadow p-3 mb-5 rounded">
                         <h1 class="blog-title">Basic Git Commands</h1>
                         <div class="blog-image">
@@ -171,13 +171,15 @@
                     </div>
                     <p class="blog-description text-white">Laravel app to generate random numbers.</p>
                 </div>
-                <div class="blog-content bg-grad-stpetersburg shadow p-3 mb-5 rounded">
-                    <h1 class="blog-title">And More!</h1>
-                    <div class="blog-image">
-                        <img src="{{secure_asset('images/more-150px.png')}}" />
+                <a href="{{route('blog-index')}}">
+                    <div class="blog-content bg-grad-stpetersburg shadow p-3 mb-5 rounded">
+                        <h1 class="blog-title">And More!</h1>
+                        <div class="blog-image">
+                            <img src="{{secure_asset('images/more-150px.png')}}" />
+                        </div>
+                        <p class="blog-description">Eventually, more useful information will be listed here!</p>
                     </div>
-                    <p class="blog-description">Eventually, more useful information will be listed here!</p>
-                </div>
+                </a>
             </div>
         </div>
         {{-- End Work, Projects, and Blog Container --}}

@@ -49,7 +49,7 @@
 /* Hide Development Technology Logos With class .dev-technology-desktop 
     if screen size < 1200px
 */
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 1000px) {
     #dev-technology-logos-desktop {
         display: none;
     }
@@ -59,7 +59,7 @@
     }
 }
 
-@media screen and (min-width: 1365px) {
+@media screen and (min-width: 1000px) {
     #dev-technology-logos-mobile {
         display: none;
     }
@@ -217,4 +217,16 @@ p.project-title {
     small {
         font-size: 20px;
     }
+}
+
+.blog-content:hover {
+    transform:translateY(0);
+}
+
+.blog-content:hover .blog-title{
+    text-decoration: underline;
+}
+
+.blog-content:hover .blog-description {
+    font-style: italic;
 }

@@ -158,7 +158,7 @@
                 <div class="blog-content bg-grad-blueshade shadow p-3 mb-5 rounded">
                     <h1 class="blog-title text-white">Basic Laravel OOP Concept</h1>
                     <div class="blog-image">
-                        <img src="{{secure_asset('images/logos/laravel.png')}}" />
+                        <img src="{{secure_asset('images/logos/Laravel.png')}}" />
                     </div>
                     <p class="blog-description text-white">Laravel OOP guide by using layouts and routes.</p>
                 </div>

@@ -202,9 +202,15 @@ p.project-title {
         font-style: italic;
     }
 
+    .blog-content {
+        min-width: 45vh;
+        min-height: 30vh;
+        margin: 5px;
+    }
+
     .blog-image {
-        width: 150px;
-        height: auto;
+        height: 150px;
+        width: auto;
     }
 }
 @media screen and (min-width: 1001px) {

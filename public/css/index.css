@@ -17,7 +17,7 @@
 .dev-logos {
     display: flex;
     flex-direction: row;
-    overflow: hidden;
+    overflow: visible;
     position: relative;
     justify-content: center;
     align-items: center;
@@ -215,7 +215,7 @@ p.project-title {
 }
 @media screen and (min-width: 1001px) {
     small {
-        font-size: 20px;
+        font-size: 16px;
     }
 }
 

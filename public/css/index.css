@@ -201,6 +201,10 @@ p.project-title {
         font-weight: 600;
         font-style: italic;
     }
+
+    .blog-image {
+        height: 150px;
+    }
 }
 @media screen and (min-width: 1001px) {
     small {

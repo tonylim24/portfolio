@@ -1,31 +1,36 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import {BrowserRouter as Router, Link, Redirect, Route} from 'react-router-dom';
 
 class HeaderBlog extends Component {
     render() {
         return (
-            <div>
-                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                    <a class="navbar-brand" href="./">
-                        <img src="https://i.imgur.com/rPSBLdw.png" width="30" height="30" alt="" />
-                    </a>
-                    <p class="navbar-brand"> | Blog</p>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="/">Return to Intro </a>
-                            </li>
+            <Router>
+                <div>
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                        <Link to="/" class="navbar-brand">
+                            <img src="https://i.imgur.com/rPSBLdw.png" width="30" height="30" alt="" />
+                        </Link>
+                        <p class="navbar-brand"> | Blog</p>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                    <Link to="/" class="nav-link">Return to Intro </Link>
+                                </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{route('blog-index')}}">Blog Index </a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
+                                <li class="nav-item">
+                                    <Route exact path="/">
+                                        <Redirect to="welcome" />
+                                    </Route>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </Router>
         );
     }
 }

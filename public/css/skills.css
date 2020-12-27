@@ -1,0 +1,17 @@
+body {
+    background-image: linear-gradient(to top right, #93a5cf, #e4efe9);
+}
+
+.skills-body-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+}
+
+.content-container {
+    display: block;
+    text-align: center;
+    align-items: center;
+}

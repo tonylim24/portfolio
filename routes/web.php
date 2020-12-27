@@ -14,13 +14,18 @@ use App\Http\Controllers\DownloadController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+Route::get('/skills', function () {
+    return view('skills');
 });
 
-Route::get('/blog', function () {
-    return view('blog.index');
-})->name('blog-index');
+// Route::get('/blog', function () {
+//     return view('blog.index');
+// })->name('blog-index');
+
 
 Route::get('/blog/gitdocs', function () {
     return view('blog.gitdocs');
@@ -34,3 +39,7 @@ Route::get('/blog/gitdocs', function () {
     full path.
 */
 Route::get('/download-resume', [DownloadController::class, 'downloadResume'])->name('downloadResume');
+
+// React Router DOM
+Route::view('/{path?}', 'welcome')->name('introPage');
+Route::view('/{path?}/blog', '/blog/index');

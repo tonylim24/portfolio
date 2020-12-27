@@ -53,10 +53,6 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
 
-    <div id="top-navbar">
-      @include('layouts.top-nav-main')
-    </div>
-
     <div class="content-container">
         @yield('content')
     </div>

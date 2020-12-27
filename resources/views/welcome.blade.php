@@ -5,6 +5,10 @@
 @endpush
 
 @section('content')
+    <div id="web-header">
+        {{-- React DOM Manipulation: js/components/HeaderMain.js --}}
+    </div>
+
     <div class="body-container">
         <div class="body-content-container-hero" id="intro">
             <div class="tl-logo">
@@ -177,7 +181,7 @@
                     </div>
                     <p class="blog-description text-white">Laravel app to generate random numbers.</p>
                 </div>
-                <a href="{{route('blog-index')}}">
+                <a href="/blog/index">
                     <div class="blog-content bg-grad-stpetersburg shadow p-3 mb-5 rounded">
                         <h1 class="blog-title">And More!</h1>
                         <div class="blog-image">

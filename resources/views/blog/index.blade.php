@@ -1,10 +1,14 @@
-@extends('layouts.sub')
+@extends('layouts.main')
 
 @push('top-scripts')
     <link rel="stylesheet" href="{{ secure_asset('css/index.css') }}">
 @endpush
 
 @section('content')
+    <div id="web-header-blog">
+        {{-- React DOM Manipulation: js/components/HeaderBlog.js --}}
+    </div>
+
     <div class="body-container">
         <div class="subtitle">
             <h4>Blog</h4>

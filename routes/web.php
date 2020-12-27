@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DownloadController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,3 +25,6 @@ Route::get('/blog', function () {
 Route::get('/blog/gitdocs', function () {
     return view('blog.gitdocs');
 })->name('gitdocs');
+
+// Route::get('/download-resume', 'DownloadController@downloadResume')->name('downloadResume');
+Route::get('/download-resume', [DownloadController::class, 'downloadResume'])->name('downloadResume');

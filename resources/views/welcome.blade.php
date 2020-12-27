@@ -18,7 +18,6 @@
                     <br> 
                     <div class="technology-container">
                         <p>Development Technologies:</p><br>
-            
                         {{-- Show if screen width > 1366px, refer to css. --}}
                         <div class="dev-logos" id="dev-technology-logos-desktop">
                             {{-- Add technology icons here. --}}
@@ -68,7 +67,10 @@
         
         <div class="subtitle">
             <h4>Resume</h4>
-            <small class="instruction">Click on the image to expand</small>
+            <a href="{{route('downloadResume')}}">
+                <small class="instruction">Click to Download<ion-icon name="download-outline"></ion-icon></small>
+            </a>
+            <small class="instruction">Click on the image to expand <ion-icon name="expand-outline"></ion-icon></small>
         </div>
         <div class="body-content-container-resume shadow p-3 mb-5 bg-white rounded" id="resume">
             <div class="resume-image">

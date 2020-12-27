@@ -181,7 +181,7 @@
                     </div>
                     <p class="blog-description text-white">Laravel app to generate random numbers.</p>
                 </div>
-                <a href="/blog">
+                <a href="/blog/index">
                     <div class="blog-content bg-grad-stpetersburg shadow p-3 mb-5 rounded">
                         <h1 class="blog-title">And More!</h1>
                         <div class="blog-image">

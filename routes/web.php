@@ -27,9 +27,9 @@ Route::get('/blog', function () {
 })->name('blog-index');
 
 
-Route::get('/blog/gitdocs', function () {
-    return view('blog.gitdocs');
-})->name('gitdocs');
+// Route::get('/blog/gitdocs', function () {
+//     return view('blog.gitdocs');
+// })->name('gitdocs');
 
 /*
     As of Laravel 8, we can no longer use the following:
@@ -42,3 +42,6 @@ Route::get('/download-resume', [DownloadController::class, 'downloadResume'])->n
 
 // React Router DOM
 Route::view('/{path?}', 'welcome')->name('introPage');
+Route::get('/{path?}/blog/gitdocs', function () {
+    return view('blog.gitdocs');
+})->name('gitdocs');

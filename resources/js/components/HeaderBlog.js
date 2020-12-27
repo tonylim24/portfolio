@@ -21,8 +21,8 @@ class HeaderBlog extends Component {
                                     <Link to="/" class="nav-link">Return to Intro </Link>
                                 </li>
 
-                                <li class="nav-item">
-                                    <Route exact path="/blog" component={Example} />
+                                <li class="nav-item active">
+                                    <Link to="/blog" class="nav-link">Blog Index </Link>
                                 </li>
                             </ul>
                         </div>

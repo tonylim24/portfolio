@@ -29,9 +29,11 @@
     -->
     <!-- Add icon library -->
     <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
 
     {{-- Tailwind CSS --}}
     <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
+
 
     <title>Tony Lim's Portfolio</title>
     {{-- Stack to Push Bottom Scripts --}}
@@ -69,6 +71,12 @@
 
     {{-- Get Main JS --}}
     <script type="text/javascript" src="{{ secure_asset('js/main.js') }}"></script>
+
+    {{-- Feathericon JS --}}
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script>
+      feather.replace()
+    </script>
     
     {{-- Stack to Push Bottom Scripts --}}
     @stack('bottom-scripts')

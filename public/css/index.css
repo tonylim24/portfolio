@@ -90,11 +90,23 @@ h3 {
 
 .subtitle {
     padding: 5px;
+    overflow: auto;
 }
 
 .subtitle > h4 {
     font-size: 52px;
     font-weight: 600;
+    font-style: italic;
+}
+
+.subtitle a {
+    /* Remove hyperlink styling */
+    color: black;
+    text-decoration: none;
+}
+
+.subtitle a:hover {
+    text-decoration: underline;
     font-style: italic;
 }
 
@@ -217,10 +229,19 @@ p.project-title {
         height: 150px;
         width: auto;
     }
+
+    .small-icon {
+        height: 14px;
+        width: 14px;
+    }
 }
 @media screen and (min-width: 1001px) {
     small {
         font-size: 16px;
+    }
+    .small-icon {
+        height: 16px;
+        width: 16px;
     }
 }
 

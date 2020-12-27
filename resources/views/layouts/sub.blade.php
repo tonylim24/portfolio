@@ -29,6 +29,7 @@
     -->
     <!-- Add icon library -->
     <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
 
     {{-- Tailwind CSS --}}
     <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">

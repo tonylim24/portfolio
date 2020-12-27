@@ -67,10 +67,14 @@
         
         <div class="subtitle">
             <h4>Resume</h4>
-            <a href="{{route('downloadResume')}}">
-                <small class="instruction">Click to Download<ion-icon name="download-outline"></ion-icon></small>
-            </a>
-            <small class="instruction">Click on the image to expand <ion-icon name="expand-outline"></ion-icon></small>
+            <div>
+                <a href="{{route('downloadResume')}}">
+                    <i data-feather="download" class="small-icon" style="display: inline-block"></i><small class="instruction" style="display:inline"> Click to Download </small>
+                </a>
+            </div>
+            <div>
+                <i data-feather="maximize-2" class="small-icon" style="display: inline-block"></i><small class="instruction"> Click on the image to expand</small>
+            </div>
         </div>
         <div class="body-content-container-resume shadow p-3 mb-5 bg-white rounded" id="resume">
             <div class="resume-image">

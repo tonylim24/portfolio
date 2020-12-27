@@ -26,5 +26,11 @@ Route::get('/blog/gitdocs', function () {
     return view('blog.gitdocs');
 })->name('gitdocs');
 
-// Route::get('/download-resume', 'DownloadController@downloadResume')->name('downloadResume');
+/*
+    As of Laravel 8, we can no longer use the following:
+    Route::get('/download-resume', 'DownloadController@downloadResume')->name('downloadResume');
+    We now use square brackets to declare Controller class. 
+    Make sure to also include the controller at the top of web.php, otherwise have to use
+    full path.
+*/
 Route::get('/download-resume', [DownloadController::class, 'downloadResume'])->name('downloadResume');

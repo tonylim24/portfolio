@@ -28,6 +28,8 @@ class HeaderBlog extends Component {
                         </div>
                     </nav>
                 </div>
+                <Route exact path="/" />
+                <Route exact path="/blog" />
             </Router>
         );
     }
@@ -36,5 +38,7 @@ class HeaderBlog extends Component {
 export default HeaderBlog;
 
 if (document.getElementById('web-header-blog')) {
-    ReactDOM.render(<HeaderBlog />, document.getElementById('web-header-blog'));
+    ReactDOM.render(
+        <HeaderBlog />, document.getElementById('web-header-blog')
+    );
 }

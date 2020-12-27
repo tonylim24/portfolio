@@ -22,9 +22,9 @@ Route::get('/skills', function () {
     return view('skills');
 });
 
-// Route::get('/blog', function () {
-//     return view('blog.index');
-// })->name('blog-index');
+Route::get('/blog', function () {
+    return view('blog.index');
+})->name('blog-index');
 
 
 Route::get('/blog/gitdocs', function () {
@@ -42,4 +42,3 @@ Route::get('/download-resume', [DownloadController::class, 'downloadResume'])->n
 
 // React Router DOM
 Route::view('/{path?}', 'welcome')->name('introPage');
-Route::view('/{path?}/blog', '/blog/index');

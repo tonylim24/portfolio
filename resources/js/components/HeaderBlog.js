@@ -22,9 +22,7 @@ class HeaderBlog extends Component {
                                 </li>
 
                                 <li class="nav-item">
-                                    <Route exact path="/">
-                                        <Redirect to="welcome" />
-                                    </Route>
+                                    <Route exact path="/blog" component={Example} />
                                 </li>
                             </ul>
                         </div>

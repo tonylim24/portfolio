@@ -8,7 +8,7 @@ class HeaderMain extends Component {
             <div>
                 <Router>
                     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                        <Link to="/portfolio/public">
+                        <Link to="/">
                             <img class="navbar-brand" src="https://i.imgur.com/rPSBLdw.png" width="30" height="30" alt="" />
                         </Link>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,7 +17,9 @@ class HeaderMain extends Component {
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="{{url('/')}}">Intro <span class="sr-only">(current)</span></a>
+                                    <Link to="/" class="nav-link">
+                                        Intro <span class="sr-only">(current)</span>
+                                    </Link>
                                 </li>
 
                                 <li class="nav-item">

@@ -32,7 +32,9 @@
                             <img src="{{ asset('images/logos/java.png') }}" alt="Java" title="Java" class="img-add-left-padding" />
                             <img src="{{ asset('images/logos/python.png') }}" alt="Python" title="Python" class="img-add-left-padding" />
                             <img src="{{ asset('images/logos/bootstrap.png') }}" alt="Bootstrap" title="Bootstrap" class="img-add-left-padding" />
-                            <img src="{{ asset('images/logos/more.png') }}" alt="and More" title="and More" class="img-add-left-padding" />
+                            <a href="{{url('/skills')}}">
+                                <img src="{{ asset('images/logos/more.png') }}" alt="and More" title="and More" class="img-add-left-padding" />
+                            </a>
                         </div>
 
                         {{-- Show if screen width < 1365px --}}
@@ -40,7 +42,9 @@
                             {{-- Add technology icons here. --}}
                             <img src="{{ asset('images/logos/Laravel.png') }}" alt="Laravel" title="Laravel" />
                             <img src="{{ asset('images/logos/ReactJS.png') }}" alt="ReactJS" title="ReactJS" />
-                            <img src="{{ asset('images/logos/more.png') }}" alt="and More" title="and More" />
+                            <a href="{{url('/skills')}}">
+                                <img src="{{ asset('images/logos/more.png') }}" alt="and More" title="and More" />
+                            </a>
                         </div>
                         <br>
                         <p>Environment: </p><br>
@@ -52,16 +56,19 @@
                             <img src="{{ asset('images/logos/adobecc.png') }}" alt="Adobe Creative Cloud" title="Adobe Creative Cloud" class="img-add-left-padding" />
                             <img src="{{ asset('images/logos/git.png') }}" alt="Git" title="Git" class="img-add-left-padding" />
                             <img src="{{ asset('images/logos/nodejs.png') }}" alt="Node JS" title="Node JS" class="img-add-left-padding" />
-                            <img src="{{ asset('images/logos/more.png') }}" alt="and More" title="and More" class="img-add-left-padding-15" />
-                        </div>
+                            <a href="{{url('/skills')}}">
+                                <img src="{{ asset('images/logos/more.png') }}" alt="and More" title="and More" class="img-add-left-padding-15" />
+                            </a>
+                            </div>
                         {{-- Show if screen width < 1365px --}}
                         <div class="dev-logos" id="dev-environment-logos-mobile">
                             {{-- Add technology icons here. --}}
                             <img src="{{ asset('images/logos/windows.png') }}" alt="Windows" title="Windows" />
                             <img src="{{ asset('images/logos/git.png') }}" alt="Git" title="Git" class="img-add-left-padding" />
-                            <img src="{{ asset('images/logos/more.png') }}" alt="and More" title="and More" class="img-add-left-padding-15" />
+                            <a href="{{url('/skills')}}">
+                                <img src="{{ asset('images/logos/more.png') }}" alt="and More" title="and More" class="img-add-left-padding-15" />
+                            </a>
                         </div>
-
                     </div>
                     <br>
                 </div>

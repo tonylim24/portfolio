@@ -38,6 +38,7 @@
                                     <a class="dropdown-item waves-effect waves-light" href="#">C++</a>
                                     <hr>
                                     <a class="dropdown-item waves-effect waves-light" href="#">MySQL</a>
+                                    <a class="dropdown-item waves-effect waves-light" href="#">PostgreSQL</a>
                                     <a class="dropdown-item waves-effect waves-light" href="#">PHPMyAdmin</a>
                                 </div>
                             </li>

@@ -1,17 +1,40 @@
+@font-face {
+    font-family: Oxygen;
+    src: url("fonts/Oxygen/Oxygen-Regular.ttf");
+}
+
 body {
     background-image: linear-gradient(to top right, #93a5cf, #e4efe9);
+    margin: 0;
 }
 
-.skills-body-container {
-    display: flex;
-    flex-direction: row;
+.main-container-title {
+    display: block;
     justify-content: center;
     align-items: center;
-    min-width: 100vh;
+    text-align: center;
+    margin: 0;
 }
 
-.content-container {
-    display: block;
-    text-align: center;
-    align-items: center;
+.main-container-title h1 {
+    font-family: Oxygen, Arial, sans-serif;
+    font-size: 40px;
 }
+
+.image-container {
+    background-image: url("images/Path_BG.jpg");
+    min-height: 100vh;
+    width: auto;
+    object-fit: cover;
+}
+
+.body-container {
+    display: flex;
+    flex-direction: row;
+    min-width: 100%;
+    margin: 0;
+    justify-content: center;
+}
+
+/* FrontEnd */
+

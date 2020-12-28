@@ -16,4 +16,3 @@ require('./components/Example');
 require('./components/Footer');
 require('./components/HeaderMain');
 require('./components/HeaderBlog');
-require('./components/HeaderSkills');

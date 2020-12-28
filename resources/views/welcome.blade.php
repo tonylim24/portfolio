@@ -21,7 +21,7 @@
                     <h3>Grow, Conceptualize, Develop, Exceed. </h3>
                     <br> 
                     <div class="technology-container">
-                        <p>Development Technologies:</p><br>
+                        <a href="{{url('/skills')}}"><p>Development Technologies:</p></a><br>
                         {{-- Show if screen width > 1366px, refer to css. --}}
                         <div class="dev-logos" id="dev-technology-logos-desktop">
                             {{-- Add technology icons here. --}}
@@ -47,7 +47,7 @@
                             </a>
                         </div>
                         <br>
-                        <p>Environment: </p><br>
+                        <a href="{{url('/skills')}}"><p>Environment: </p></a><br>
                         {{-- Show if screen width > 1366px, refer to css. --}}
                         <div class="dev-logos" id="dev-environment-logos-desktop">
                             {{-- Add technology icons here. --}}

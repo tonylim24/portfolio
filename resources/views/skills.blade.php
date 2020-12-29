@@ -8,7 +8,7 @@
 
     <div class="main-container"></div>
         <div class="image-container">
-            <div class="main-container-title bg-white">
+            <div class="main-container-title">
                 <h1>SKILLS</h1>
             </div>
             <div class="body-container">

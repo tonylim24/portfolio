@@ -78,6 +78,8 @@
                                     <a class="dropdown-item waves-effect waves-light" href="#">ClickUp</a>
                                     <hr>
                                     <a class="dropdown-item waves-effect waves-light" href="#">Prestashop</a>
+                                    <hr>
+                                    <a class="dropdown-item waves-effect waves-light" href="#">Microsoft Office</a>
                                 </div>
                             </li>
                             <li class="nav-item dropdown">

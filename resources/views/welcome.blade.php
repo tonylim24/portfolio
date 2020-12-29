@@ -89,7 +89,10 @@
         </div>
         <div class="body-content-container-resume shadow p-3 mb-5 bg-white rounded" id="resume">
             <div class="resume-image">
-                <a href="{{asset('images/WEB_RESUME_A4_96PPI.jpg')}}" target="_blank" rel="noreferrer">
+                {{-- <a data-fancybox="gallery" href="{{asset('images/WEB_RESUME_A4_96PPI.jpg')}}" target="_blank" rel="noreferrer">
+                    <img id="resume-image" src="{{ asset('images/WEB_RESUME_A4_96PPI.jpg')}}" alt="resume">
+                </a> --}}
+                <a href="{{asset('images/WEB_RESUME_A4_96PPI.jpg')}}" data-fancybox data-caption="Resume">  
                     <img id="resume-image" src="{{ asset('images/WEB_RESUME_A4_96PPI.jpg')}}" alt="resume">
                 </a>
             </div>

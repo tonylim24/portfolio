@@ -209,7 +209,7 @@
             </div>
         </div>
         {{-- End Work, Projects, and Blog Container --}}
-        <p>All trademarks are the property of their respective owners.</p>
+        <p class="text-muted">All trademarks are the property of their respective owners.</p>
     </div>
 
     <div id="web-footer">

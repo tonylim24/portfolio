@@ -89,9 +89,6 @@
         </div>
         <div class="body-content-container-resume shadow p-3 mb-5 bg-white rounded" id="resume">
             <div class="resume-image">
-                {{-- <a data-fancybox="gallery" href="{{asset('images/WEB_RESUME_A4_96PPI.jpg')}}" target="_blank" rel="noreferrer">
-                    <img id="resume-image" src="{{ asset('images/WEB_RESUME_A4_96PPI.jpg')}}" alt="resume">
-                </a> --}}
                 <a href="{{asset('images/WEB_RESUME_A4_96PPI.jpg')}}" data-fancybox data-caption="Resume">  
                     <img id="resume-image" src="{{ asset('images/WEB_RESUME_A4_96PPI.jpg')}}" alt="resume">
                 </a>
@@ -101,13 +98,17 @@
 
         <div class="subtitle">
             <h4>Work & Projects</h4>
+            <small class="instruction" style="display:inline"> Click to view gallery or go into a live webpage. </small>
         </div>
         <div class="body-content-container-projects p-3 mb-5 bg-white rounded" id="projects">
             <div class="content-container-projects-1 shadow p-3 mb-5 bg-white rounded">
                 <div class="body-projects-img">
-                    <a href="#" target="_blank" rel="noreferrer">
-                        <img src="{{asset('/images/datacore-index.jpg')}}" alt="Lee's Electronic's DataCore"> 
+                    {{-- DataCore Images Gallery --}}
+                    <a href="{{asset('/images/datacore/datacore-index.jpg')}}" data-fancybox="gallery" data-caption="DataCore Index Page.">
+                        <img src="{{asset('/images/datacore/datacore-index.jpg')}}" alt="Lee's Electronic's DataCore" />
                     </a>
+                    <a href="{{asset('/images/datacore/datacore-search.jpg')}}" data-fancybox="gallery" data-caption="DataCore Search Page."></a>
+                    <a href="{{asset('/images/datacore/create_order.jpg')}}" data-fancybox="gallery" data-caption="DataCore behaving as online POS system to create order. Payments are done through Beanstream Payment API."></a>
                 </div>
                 <div class="body-projects-desc rounded-xl">
                     <p class="project-title">DataCore</p>
@@ -121,9 +122,14 @@
 
             <div class="content-container-projects-1 shadow p-3 mb-5 bg-white rounded">
                 <div class="body-projects-img">
-                    <a href="#" target="_blank" rel="noreferrer">
+                    {{-- <a href="#" target="_blank" rel="noreferrer">
                         <img src="{{asset('/images/coreui-index.jpg')}}" alt="Lee's Electronic's CoreUI"> 
+                    </a> --}}
+                    <a href="{{asset('/images/coreui/coreui-index.jpg')}}" data-fancybox="gallery" data-caption="DataCore's Backend (CoreUI)'s Index Page.">
+                        <img src="{{asset('/images/coreui/coreui-index.jpg')}}" alt="Lee's Electronic's DataCore" />
                     </a>
+                    <a href="{{asset('/images/coreui/coreui-analytics.jpg')}}" data-fancybox="gallery" data-caption="CoreUI is used to provide admins with statistics and business insights."></a>
+                    <a href="{{asset('/images/coreui/coreui-calendar.jpg')}}" data-fancybox="gallery" data-caption="Each individual users have access to their own calendar. Shift schedules and statutory holidays are automatically filled by using Python script."></a>
                 </div>
                 <div class="body-projects-desc rounded-xl">
                     <p class="project-title">CoreUI</p>

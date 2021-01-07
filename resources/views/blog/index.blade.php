@@ -23,13 +23,17 @@
                     <p class="blog-description">Basic git commands that are commonly used during production.</p>
                 </div>
             </a>
-            <div class="blog-content bg-grad-blueshade shadow p-3 mb-5 rounded">
-                <h1 class="blog-title text-white">Basic Laravel OOP Concept</h1>
-                <div class="blog-image">
-                    <img src="{{secure_asset('images/logos/Laravel-h150px.png')}}" />
+            <a href="https://tonylim-hatchways-frontend.netlify.app/" target="_blank">
+                <div class="blog-content bg-grad-blueshade shadow p-3 mb-5 rounded">
+                    <h1 class="blog-title text-white">Displaying API with React</h1>
+                    <div class="blog-image">
+                        <img src="{{secure_asset('images/logos/ReactJS.png')}}" />
+                    </div>
+                    <p class="blog-description text-white">Hatchways' assessment to display API using React JS. <br /> 
+                        For code please check GitHub repository "frontend-react-api".
+                    </p>
                 </div>
-                <p class="blog-description text-white">Laravel OOP guide by using layouts and routes.</p>
-            </div>
+            </a>
             <div class="blog-content bg-grad-underwater shadow p-3 mb-5 rounded">
                 <h1 class="blog-title text-white">Random Number Generator</h1>
                 <div class="blog-image">

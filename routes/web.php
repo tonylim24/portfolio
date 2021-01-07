@@ -30,6 +30,10 @@ Route::get('/blog/gitdocs', function () {
     return view('blog.gitdocs');
 })->name('gitdocs');
 
+Route::get('/blog/hatchways-frontend-assessment', function () {
+    return view('blog.hatchways-frontend-assessment');
+})->name('hatchways-assessment');
+
 
 // Route::get('/blog/gitdocs', function () {
 //     return view('blog.gitdocs');

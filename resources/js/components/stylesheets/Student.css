@@ -1,0 +1,83 @@
+/*  
+    Part 2 of Hatchways' Frontend Assessment: 
+    styling with CSS.
+    Author: Hartono (Tony) Lim Salim
+*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+#student-container {
+    display: flex;
+    border-bottom: 1px solid lightgrey;
+}
+
+#student-container > img {
+    float: left;
+    position: relative;
+    height: 125px;
+    width: auto;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 30px;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+#student-info {
+    display: block;
+    text-align: left;
+    padding-left: 20px;
+}
+
+#searchBar {
+    display: flex;
+    justify-content: left;
+    font-size: larger;
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 100%;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+#student-container-view-grades-detail {
+    display: block;
+    position: absolute;
+    padding-top: 15px;
+    right: 0;
+}
+
+#student-container-view-grades-detail > button {
+    border: none;
+    background-color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    color: grey;
+}
+
+#grades-list > p {
+    margin: 0;
+}
+
+#tag-button {
+    margin: 10px 10px 10px 0px;
+}
+
+#addTagInput {
+    font-size: larger;
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 10px 10px 25px 0px;
+}
+
+#tag-list > button {
+    padding: 5px;
+}

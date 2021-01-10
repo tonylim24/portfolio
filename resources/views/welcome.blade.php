@@ -207,7 +207,7 @@
                         <div class="blog-image">
                             <img src="{{secure_asset('images/more-150px.png')}}" />
                         </div>
-                        <p class="blog-description">Eventually, more useful information will be listed here!</p>
+                        <p class="blog-description">Eventually, more blog posts will be listed here!</p>
                     </div>
                 </a>
             </div>

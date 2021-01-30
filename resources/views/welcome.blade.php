@@ -264,8 +264,8 @@
                 
             // textures
 
-            const textureFront = new THREE.ImageUtils.loadTexture("storage/images/card-front.png");
-            const textureBack = new THREE.ImageUtils.loadTexture("storage/images/card-back.png");
+            const textureFront = new THREE.ImageUtils.loadTexture("images/card-front.png");
+            const textureBack = new THREE.ImageUtils.loadTexture("images/card-back.png");
 
             // materials
             var material1 = new THREE.MeshPhongMaterial( { map: textureFront } );

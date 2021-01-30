@@ -23,22 +23,22 @@
                     <div class="technology-container">
                         <a href="{{url('/skills')}}"><p>Development Technologies:</p></a><br>
                         {{-- Show if screen width > 1366px, refer to css. --}}
-                        <div class="dev-logos" id="dev-technology-logos-desktop">
+                        <div class="dev-logos" id="dev-technology-logos-desktop" data-aos="fade-in">
                             {{-- Add technology icons here. --}}
-                            <img src="{{ asset('images/logos/Laravel.png') }}" alt="Laravel" title="Laravel" />
-                            <img src="{{ asset('images/logos/ReactJS.png') }}" alt="ReactJS" title="ReactJS" />
-                            <img src="{{ asset('images/logos/MySQL.png') }}" alt="MySQL" title="MySQL" />
-                            <img src="{{ asset('images/logos/CSS.png') }}" alt="CSS" title="CSS" class="img-add-left-padding" />
-                            <img src="{{ asset('images/logos/java.png') }}" alt="Java" title="Java" class="img-add-left-padding" />
-                            <img src="{{ asset('images/logos/python.png') }}" alt="Python" title="Python" class="img-add-left-padding" />
-                            <img src="{{ asset('images/logos/bootstrap.png') }}" alt="Bootstrap" title="Bootstrap" class="img-add-left-padding" />
+                            <img src="{{ asset('images/logos/Laravel.png') }}" alt="Laravel" title="Laravel" data-aos="fade-in" data-aos-delay="200" />
+                            <img src="{{ asset('images/logos/ReactJS.png') }}" alt="ReactJS" title="ReactJS" data-aos="fade-in" data-aos-delay="400"/>
+                            <img src="{{ asset('images/logos/MySQL.png') }}" alt="MySQL" title="MySQL" data-aos="fade-in" data-aos-delay="600"/>
+                            <img src="{{ asset('images/logos/CSS.png') }}" alt="CSS" title="CSS" class="img-add-left-padding" data-aos="fade-in" data-aos-delay="800"/>
+                            <img src="{{ asset('images/logos/java.png') }}" alt="Java" title="Java" class="img-add-left-padding" data-aos="fade-in" data-aos-delay="1000"/>
+                            <img src="{{ asset('images/logos/python.png') }}" alt="Python" title="Python" class="img-add-left-padding" data-aos="fade-in" data-aos-delay="1200"/>
+                            <img src="{{ asset('images/logos/bootstrap.png') }}" alt="Bootstrap" title="Bootstrap" class="img-add-left-padding" data-aos="fade-in" data-aos-delay="1400"/>
                             <a href="{{url('/skills')}}">
-                                <img src="{{ asset('images/logos/more.png') }}" alt="and More" title="and More" class="img-add-left-padding" />
+                                <img src="{{ asset('images/logos/more.png') }}" alt="and More" title="and More" class="img-add-left-padding" data-aos="fade-in" data-aos-delay="1600"/>
                             </a>
                         </div>
 
                         {{-- Show if screen width < 1365px --}}
-                        <div class="dev-logos" id="dev-technology-logos-mobile">
+                        <div class="dev-logos" id="dev-technology-logos-mobile" data-aos="fade-in">
                             {{-- Add technology icons here. --}}
                             <img src="{{ asset('images/logos/Laravel.png') }}" alt="Laravel" title="Laravel" />
                             <img src="{{ asset('images/logos/ReactJS.png') }}" alt="ReactJS" title="ReactJS" />
@@ -51,13 +51,13 @@
                         {{-- Show if screen width > 1366px, refer to css. --}}
                         <div class="dev-logos" id="dev-environment-logos-desktop">
                             {{-- Add technology icons here. --}}
-                            <img src="{{ asset('images/logos/windows.png') }}" alt="Microsoft Windows" title="Microsoft Windows" />
-                            <img src="{{ asset('images/logos/linux.png') }}" alt="Linux" title="Linux" title="Linux" class="img-add-left-padding" />
-                            <img src="{{ asset('images/logos/adobecc.png') }}" alt="Adobe Creative Cloud" title="Adobe Creative Cloud" class="img-add-left-padding" />
-                            <img src="{{ asset('images/logos/git.png') }}" alt="Git" title="Git" class="img-add-left-padding" />
-                            <img src="{{ asset('images/logos/nodejs.png') }}" alt="Node JS" title="Node JS" class="img-add-left-padding" />
+                            <img src="{{ asset('images/logos/windows.png') }}" alt="Microsoft Windows" title="Microsoft Windows" data-aos="fade-in" data-aos-delay="1800" />
+                            <img src="{{ asset('images/logos/linux.png') }}" alt="Linux" title="Linux" title="Linux" class="img-add-left-padding" data-aos="fade-in" data-aos-delay="2000" />
+                            <img src="{{ asset('images/logos/adobecc.png') }}" alt="Adobe Creative Cloud" title="Adobe Creative Cloud" class="img-add-left-padding" data-aos="fade-in" data-aos-delay="2200" />
+                            <img src="{{ asset('images/logos/git.png') }}" alt="Git" title="Git" class="img-add-left-padding" data-aos="fade-in" data-aos-delay="2400" />
+                            <img src="{{ asset('images/logos/nodejs.png') }}" alt="Node JS" title="Node JS" class="img-add-left-padding" data-aos="fade-in" data-aos-delay="2600"/>
                             <a href="{{url('/skills')}}">
-                                <img src="{{ asset('images/logos/more.png') }}" alt="and More" title="and More" class="img-add-left-padding-15" />
+                                <img src="{{ asset('images/logos/more.png') }}" alt="and More" title="and More" class="img-add-left-padding-15" data-aos="fade-in" data-aos-delay="2800" />
                             </a>
                             </div>
                         {{-- Show if screen width < 1365px --}}
@@ -76,7 +76,7 @@
             <hr>
         </div>
         
-        <div class="subtitle">
+        <div class="subtitle" data-aos="fade-up" data-aos-duration="8000">
             <h4>Resume</h4>
             <div>
                 <a href="{{route('downloadResume')}}">
@@ -87,7 +87,7 @@
                 <i data-feather="maximize-2" class="small-icon" style="display: inline-block"></i><small class="instruction"> Click on the image to expand</small>
             </div>
         </div>
-        <div class="body-content-container-resume shadow p-3 mb-5 bg-white rounded" id="resume">
+        <div class="body-content-container-resume shadow p-3 mb-5 bg-white rounded" id="resume" data-aos="fade-up" data-aos-duration="4000" data-aos-delay="4000">
             <div class="resume-image">
                 <a href="{{asset('images/WEB_RESUME_A4_96PPI.jpg')}}" data-fancybox data-caption="Resume">  
                     <img id="resume-image" src="{{ asset('images/WEB_RESUME_A4_96PPI.jpg')}}" alt="resume">
@@ -110,8 +110,8 @@
                     <a href="{{asset('/images/datacore/datacore-search.jpg')}}" data-fancybox="gallery" data-caption="DataCore Search Page."></a>
                     <a href="{{asset('/images/datacore/create_order.jpg')}}" data-fancybox="gallery" data-caption="DataCore behaving as online POS system to create order. Payments are done through Beanstream Payment API."></a>
                 </div>
-                <div class="body-projects-desc rounded-xl">
-                    <p class="project-title">DataCore</p>
+                <div class="body-projects-desc rounded-xl" data-aos="fade-up" data-aos-delay="500" data-aos-duration="4000">
+                    <p class="project-title" >DataCore</p>
                     <p class="project-text">
                         Business centric web application to assist Lee's Electronic Components in daily operations. 
                         Developed using Laravel, Bootstrap, JQuery, AJAX, PHP, CSS, JS, Bambora API, and SQL.
@@ -131,7 +131,7 @@
                     <a href="{{asset('/images/coreui/coreui-analytics.jpg')}}" data-fancybox="gallery" data-caption="CoreUI is used to provide admins with statistics and business insights."></a>
                     <a href="{{asset('/images/coreui/coreui-calendar.jpg')}}" data-fancybox="gallery" data-caption="Each individual users have access to their own calendar. Shift schedules and statutory holidays are automatically filled by using Python script."></a>
                 </div>
-                <div class="body-projects-desc rounded-xl">
+                <div class="body-projects-desc rounded-xl" data-aos="fade-up" data-aos-delay="500" data-aos-duration="4000">
                     <p class="project-title">CoreUI</p>
                     <p class="project-text">
                         DataCore's backend system to assist with administration procedures. Database is synced with
@@ -147,7 +147,7 @@
                         <img src="{{asset('/images/portfolio.jpg')}}" alt="Portfolio"> 
                     </a>
                 </div>
-                <div class="body-projects-desc rounded-xl">
+                <div class="body-projects-desc rounded-xl" data-aos="fade-up" data-aos-delay="500" data-aos-duration="4000">
                     <p class="project-title">PERSONAL PORTFOLIO</p>
                     <p class="project-text">
                         Responsive personal portfolio developed locally with MAMP, Nginx, Laravel, CSS, Bootstrap, React, and deployed with Heroku.
@@ -161,7 +161,7 @@
                         <img src="{{asset('/images/tngames.jpg')}}" alt="T&N Games"> 
                     </a>
                 </div>
-                <div class="body-projects-desc rounded-xl">
+                <div class="body-projects-desc rounded-xl" data-aos="fade-up" data-aos-delay="500" data-aos-duration="4000">
                     <p class="project-title">T&N Games</p>
                     <p class="project-text">
                         Modern and simple website developed using HTML, Bootstrap, CSS, and Google APIs. The idea behind 
@@ -171,11 +171,11 @@
             </div>
 
             <div class="subtitle">
-                <h4>Blog</h4>
+                <h4>Blog & Resources</h4>
             </div>
             <div class="blog-container" id="blog">
                 <a href="{{route('gitdocs')}}">
-                    <div class="blog-content bg-grad-peach shadow p-3 mb-5 rounded">
+                    <div class="blog-content bg-grad-peach shadow p-3 mb-5 rounded" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">
                         <h1 class="blog-title">Basic Git Commands</h1>
                         <div class="blog-image">
                             <img src="{{secure_asset('images/logos/git-h150px.png')}}" />
@@ -184,7 +184,7 @@
                     </div>
                 </a>
                 <a href="https://tonylim-hatchways-frontend.netlify.app/" target="_blank">
-                    <div class="blog-content bg-grad-blueshade shadow p-3 mb-5 rounded">
+                    <div class="blog-content bg-grad-blueshade shadow p-3 mb-5 rounded" data-aos="fade-left" data-aos-delay="400" data-aos-duration="1000">
                         <h1 class="blog-title text-white">Displaying API with React</h1>
                         <div class="blog-image">
                             <img src="{{secure_asset('images/logos/ReactJS.png')}}" />
@@ -194,7 +194,7 @@
                         </p>
                     </div>
                 </a>
-                <div class="blog-content bg-grad-underwater shadow p-3 mb-5 rounded">
+                <div class="blog-content bg-grad-underwater shadow p-3 mb-5 rounded" data-aos="fade-right" data-aos-delay="600" data-aos-duration="1000">
                     <h1 class="blog-title text-white">Random Number Generator</h1>
                     <div class="blog-image">
                         <img src="{{secure_asset('images/dice.png')}}" />
@@ -202,7 +202,7 @@
                     <p class="blog-description text-white">Laravel app to generate random numbers.</p>
                 </div>
                 <a href="{{route('blog-index')}}">
-                    <div class="blog-content bg-grad-stpetersburg shadow p-3 mb-5 rounded">
+                    <div class="blog-content bg-grad-stpetersburg shadow p-3 mb-5 rounded" data-aos="fade-left" data-aos-delay="800" data-aos-duration="1000">
                         <h1 class="blog-title">And More!</h1>
                         <div class="blog-image">
                             <img src="{{secure_asset('images/more-150px.png')}}" />

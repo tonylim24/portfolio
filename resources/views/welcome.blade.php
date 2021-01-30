@@ -213,6 +213,9 @@
             </div>
         </div>
         {{-- End Work, Projects, and Blog Container --}}
+
+        <div id="canvas-container" class="w-100"></div>
+
         <p class="text-muted">All trademarks are the property of their respective owners.</p>
     </div>
 
@@ -221,3 +224,85 @@
     </div>
     
 @endsection
+
+@push('bottom-scripts')
+    <script>
+        var renderer, scene, camera, card;
+
+        init();
+        animate();
+
+        function init() {
+
+            var container = document.getElementById('canvas-container');
+            var w = container.offsetWidth;
+            var h = container.offsetHeight;
+
+            // renderer
+            renderer = new THREE.WebGLRenderer();
+            // renderer.setSize( window.innerWidth, window.innerHeight );
+            renderer.setSize( w, h );
+            renderer.setClearColor("#FFFFFF");
+
+            // Get DOM to Render
+            container.appendChild( renderer.domElement );
+
+            // document.body.appendChild( renderer.domElement );
+
+            // scene
+            scene = new THREE.Scene();
+            
+            // camera
+            camera = new THREE.PerspectiveCamera( 75, w / h, 1, 1000 );
+            camera.position.z = 6;
+            camera.lookAt( scene.position );
+            
+            // geometry
+            var geometry1 = new THREE.PlaneGeometry( 7, 4, 1, 1 );            
+            var geometry2 = new THREE.PlaneGeometry( 7, 4, 1, 1 );            
+            geometry2.applyMatrix( new THREE.Matrix4().makeRotationY( Math.PI ) );
+                
+            // textures
+
+            const textureFront = new THREE.ImageUtils.loadTexture("storage/images/card-front.png");
+            const textureBack = new THREE.ImageUtils.loadTexture("storage/images/card-back.png");
+
+            // materials
+            var material1 = new THREE.MeshPhongMaterial( { map: textureFront } );
+            var material2 = new THREE.MeshPhongMaterial( { map: textureBack } );
+            
+            // card
+            card = new THREE.Object3D();
+            scene.add( card );
+
+            const light = new THREE.PointLight(0xffffff, 1, 1000);
+            light.position.set(0, 0, 50);
+            scene.add(light);
+            
+            // mesh
+            var mesh1 = new THREE.Mesh( geometry1, material1 );
+            card.add( mesh1 );
+            var mesh2 = new THREE.Mesh( geometry2, material2 );
+            card.add( mesh2 );
+            
+        }
+
+        function animate() {
+
+            requestAnimationFrame( animate );
+            
+            card.rotation.y += 0.007;
+            
+            renderer.render( scene, camera );
+            
+        }
+    </script>
+
+    <script>
+        var container = document.getElementById('canvas-container');
+        console.log(container.offsetWidth);
+        console.log(container.offsetHeight);
+
+    </script>
+    
+@endpush

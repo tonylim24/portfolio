@@ -256,3 +256,7 @@ p.project-title {
 .blog-content:hover .blog-description {
     font-style: italic;
 }
+
+#canvas-container {
+    height: 500px;
+}

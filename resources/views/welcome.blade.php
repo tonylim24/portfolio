@@ -143,6 +143,21 @@
 
             <div class="content-container-projects-1 shadow p-3 mb-5 bg-white rounded">
                 <div class="body-projects-img">
+                    <a href="https://netflix-clone-6ebef.firebaseapp.com/" target="_blank" rel="noreferrer">
+                        <img src="{{secure_asset('/images/movie-trailer-library.jpg')}}" alt="Movie Trailer Library"> 
+                    </a>
+                </div>
+                <div class="body-projects-desc rounded-xl" data-aos="fade-up" data-aos-delay="500" data-aos-duration="4000">
+                    <p class="project-title">Movie Trailer Library</p>
+                    <p class="project-text">
+                        A netflix clone, movie trailer library developed using React, CSS, 
+                        Axios, react-youtube, TMDB API, Google Youtube API, and Deployed using Google Firebase.
+                    </p>
+                </div>
+            </div>
+
+            <div class="content-container-projects-1 shadow p-3 mb-5 bg-white rounded">
+                <div class="body-projects-img">
                     <a href="https://tonylim-portfolio.herokuapp.com/" target="_blank" rel="noreferrer">
                         <img src="{{asset('/images/portfolio.jpg')}}" alt="Portfolio"> 
                     </a>
@@ -302,7 +317,6 @@
         var container = document.getElementById('canvas-container');
         console.log(container.offsetWidth);
         console.log(container.offsetHeight);
-
     </script>
     
 @endpush

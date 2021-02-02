@@ -30,11 +30,11 @@
     height: 50px;
 }
 
-.dev-logos .img-add-left-padding{
+.dev-logos .img-add-left-padding {
     padding-left: 25px;
 }
 
-.dev-logos .img-add-left-padding-15{
+.dev-logos .img-add-left-padding-15 {
     padding-left: 15px;
 }
 
@@ -69,7 +69,7 @@
     }
 }
 
-.technology-container p{
+.technology-container p {
     text-decoration: underline;
 }
 
@@ -128,7 +128,7 @@ h3 {
 .content-container-projects-1 .body-projects-desc {
     text-align: center;
     overflow: auto;
-    background-color: #343A40;
+    background-color: #343a40;
     padding: 20px;
     min-width: 40vw;
 }
@@ -195,11 +195,11 @@ p.project-title {
 }
 
 .bg-grad-blueshade {
-    background-image: linear-gradient(to top, #09203f, #537895)
+    background-image: linear-gradient(to top, #09203f, #537895);
 }
 
 .bg-grad-stpetersburg {
-    background-image: linear-gradient(to bottom right, #f5f7fa , #c3cfe2)
+    background-image: linear-gradient(to bottom right, #f5f7fa, #c3cfe2);
 }
 
 /* For mobile devices, scale blog grid section */
@@ -246,10 +246,10 @@ p.project-title {
 }
 
 .blog-content:hover {
-    transform:translateY(0);
+    transform: translateY(0);
 }
 
-.blog-content:hover .blog-title{
+.blog-content:hover .blog-title {
     text-decoration: underline;
 }
 

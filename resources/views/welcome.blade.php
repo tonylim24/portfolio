@@ -105,7 +105,7 @@
                 <div class="body-projects-img">
                     {{-- DataCore Images Gallery --}}
                     <a href="{{asset('/images/datacore/datacore-index.jpg')}}" data-fancybox="gallery" data-caption="DataCore Index Page.">
-                        <img src="{{asset('/images/datacore/datacore-index.jpg')}}" alt="Lee's Electronic's DataCore" />
+                        <img class="project-img" src="{{asset('/images/datacore/datacore-index.jpg')}}" alt="Lee's Electronic's DataCore" />
                     </a>
                     <a href="{{asset('/images/datacore/datacore-search.jpg')}}" data-fancybox="gallery" data-caption="DataCore Search Page."></a>
                     <a href="{{asset('/images/datacore/create_order.jpg')}}" data-fancybox="gallery" data-caption="DataCore behaving as online POS system to create order. Payments are done through Beanstream Payment API."></a>
@@ -126,7 +126,7 @@
                         <img src="{{asset('/images/coreui-index.jpg')}}" alt="Lee's Electronic's CoreUI"> 
                     </a> --}}
                     <a href="{{asset('/images/coreui/coreui-index.jpg')}}" data-fancybox="gallery" data-caption="DataCore's Backend (CoreUI)'s Index Page.">
-                        <img src="{{asset('/images/coreui/coreui-index.jpg')}}" alt="Lee's Electronic's DataCore" />
+                        <img class="project-img" src="{{asset('/images/coreui/coreui-index.jpg')}}" alt="Lee's Electronic's DataCore" />
                     </a>
                     <a href="{{asset('/images/coreui/coreui-analytics.jpg')}}" data-fancybox="gallery" data-caption="CoreUI is used to provide admins with statistics and business insights."></a>
                     <a href="{{asset('/images/coreui/coreui-calendar.jpg')}}" data-fancybox="gallery" data-caption="Each individual users have access to their own calendar. Shift schedules and statutory holidays are automatically filled by using Python script."></a>
@@ -144,7 +144,7 @@
             <div class="content-container-projects-1 shadow p-3 mb-5 bg-white rounded">
                 <div class="body-projects-img">
                     <a href="https://netflix-clone-6ebef.firebaseapp.com/" target="_blank" rel="noreferrer">
-                        <img src="{{secure_asset('/images/movie-trailer-library.jpg')}}" alt="Movie Trailer Library"> 
+                        <img class="project-img" src="{{secure_asset('/images/movie-trailer-library.jpg')}}" alt="Movie Trailer Library"> 
                     </a>
                 </div>
                 <div class="body-projects-desc rounded-xl" data-aos="fade-up" data-aos-delay="500" data-aos-duration="4000">
@@ -159,7 +159,7 @@
             <div class="content-container-projects-1 shadow p-3 mb-5 bg-white rounded">
                 <div class="body-projects-img">
                     <a href="https://tonylim-portfolio.herokuapp.com/" target="_blank" rel="noreferrer">
-                        <img src="{{asset('/images/portfolio.jpg')}}" alt="Portfolio"> 
+                        <img class="project-img" src="{{asset('/images/portfolio.jpg')}}" alt="Portfolio"> 
                     </a>
                 </div>
                 <div class="body-projects-desc rounded-xl" data-aos="fade-up" data-aos-delay="500" data-aos-duration="4000">
@@ -173,7 +173,7 @@
             <div class="content-container-projects-1 shadow p-3 mb-5 bg-white rounded">
                 <div class="body-projects-img">
                     <a href="http://www.tngames.ca" target="_blank" rel="noreferrer">
-                        <img src="{{asset('/images/tngames.jpg')}}" alt="T&N Games"> 
+                        <img class="project-img" src="{{asset('/images/tngames.jpg')}}" alt="T&N Games"> 
                     </a>
                 </div>
                 <div class="body-projects-desc rounded-xl" data-aos="fade-up" data-aos-delay="500" data-aos-duration="4000">

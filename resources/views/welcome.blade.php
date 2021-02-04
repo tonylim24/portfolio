@@ -158,7 +158,7 @@
 
             <div class="content-container-projects-1 shadow p-3 mb-5 bg-white rounded">
                 <div class="body-projects-img">
-                    <a href="" target="_blank" rel="noreferrer">
+                    <a href="https://spotify-controller-61ab5.firebaseapp.com/" target="_blank" rel="noreferrer">
                         <img class="project-img" src="{{secure_asset('/images/spotify-controller.jpg')}}" alt="Movie Trailer Library"> 
                     </a>
                 </div>

@@ -163,7 +163,7 @@
                     </a>
                 </div>
                 <div class="body-projects-desc rounded-xl" data-aos="fade-up" data-aos-delay="500" data-aos-duration="4000">
-                    <p class="project-title">Movie Trailer Library</p>
+                    <p class="project-title">Spotify Controller</p>
                     <p class="project-text">
                         Spotify-library controller. Please open Spotify's player at open.spotify.com or spotify app to show currently playing.
                         Developed using React, React Context, CSS, JavaScript, Spotify API, and Material UI. Still currently under development.
